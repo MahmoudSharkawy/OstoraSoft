@@ -1,20 +1,44 @@
-body{
-    margin: 10px;
-background-color: olivedrab;
+body {
+  margin: 10px;
+  background-color: olivedrab;
 }
 
-
-
-h1{
-    color: maroon;
-    text-shadow: 10ch;
+h1 {
+  color: maroon;
+  text-shadow: 10ch;
+  text-align: center;
 }
-h1:hover{
-    color: goldenrod;
+h1:hover {
+  color: goldenrod;
 }
-p{
-    color: purple;
+p {
+  color: purple;
+  text-align: center;
 }
-p:hover{
-    color: aqua;
+p:hover {
+  color: aqua;
+}
+.service {
+  color: aquamarine;
+  border: 1px solid green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service:hover {
+  color: aqua;
+}
+h2 {
+  text-align: center;
+}
+.software {
+  align-content: center;
+  text-align: center;
+  color: gold;
+  width: 50%;
+  padding: 20px;
+  border: 4px solid greenyellow;
+  text-align: center;
+  margin: auto;
+}
+.software:hover {
+  color: goldenrod;
 }
